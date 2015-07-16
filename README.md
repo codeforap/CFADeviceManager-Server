@@ -1,7 +1,7 @@
 # CFADeviceManager
 CFA Device Manager is a Mobile Device Management Solution building, scalability aspect on the first thought. 
 
-This project uses MQTT Protocol (IBM developed IoT Protocol, Read more at `http://mqtt.org`) in order to avoid long-polling on devices & server.
+This project uses MQTT (Open Source - IoT Protocol, Read more at `http://mqtt.org`) in order to avoid long-polling on devices & server.
 MQTT is reliable, consumes low-power on mobiles/tablets & highly scalable.  
 
 
