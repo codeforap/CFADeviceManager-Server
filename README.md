@@ -8,12 +8,13 @@ MQTT is reliable, consumes low-power on mobiles/tablets & highly scalable.
 For Android Client, Clone the git Repo:
 
 ``` bash
-git clone https://github.com/codeforap/CFA-DM-AndroidClient.git
+git clone https://github.com/codeforap/CFADeviceManager-Server.git
 ```
 
-Contribute to the Android Client at [CFA -DM-AndroidClient](https://github.com/codeforap/CFA-DM-AndroidClient)
+Contribute to the Android Client at [CFADeviceManager-Server](https://github.com/codeforap/CFADeviceManager-Server)
 
 ## Technology
 
 * MQTT
 * MongoDB
+* Python
