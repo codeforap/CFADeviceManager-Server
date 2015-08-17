@@ -1,0 +1,157 @@
+body {
+  background-color: #fff;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#regions path {
+  /*fill: #fff;*/
+  stroke: #000;
+  stroke-width: 0.8px;
+}
+
+#regions path.name_arc {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+#regions path:hover {
+  stroke: #000;
+  cursor: hand; cursor: pointer;
+}
+   
+#regions .active {
+  fill: #0033CC;
+}
+
+div#map {
+  float: left;
+}
+
+div#data {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#overlays {
+  opacity: 0;
+}
+
+body#no-op {
+  padding-top: 0px;
+  opacity: 0.9;
+  padding: 0px;
+}
+
+.overlay {
+  font-size: "14px";
+  font-name: "Helvetica Neue";
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+svg {
+  overflow: hidden;
+}
+
+div.html-overlay {
+  position: absolute;
+  height: 200;
+  width: 150;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+.region-label {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#regions path.data_flow_arc {
+  fill: none;
+  stroke: green;
+}
+
+@media (max-width: 1900px) {
+  .row-fluid .span8 {
+    width: 98%;
+  }
+
+  .row-fluid .span4 {
+    width: 98%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1900px) {
+  .row .col-lg-4-1 {
+    width: 98%;
+  }
+
+  .row .col-lg-12-2 {
+    width: 48%;
+  }
+}
+
+@media (max-width: 999px) {
+  .row .col-lg-4-1 {
+    width: 98%;
+  }
+}
+
+@media (min-width: 1901px) {
+  .row-fluid .span12-1 {
+    width: 98%;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+.navmenu {
+  z-index: 1;
+}
+
+.canvas {
+  position: relative;
+  left: 0;
+  z-index: 2;
+  min-height: 100%;
+  padding: 50px 0 0 0;
+  background: #fff;
+}
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
+  .canvas {
+    padding: 0;
+    padding-top: 30px;
+  }
+}
